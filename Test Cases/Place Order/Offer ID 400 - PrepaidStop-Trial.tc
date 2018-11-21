@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for the Regression-Standard Offer</description>
+   <name>Offer ID 400 - PrepaidStop-Trial</name>
+   <tag>Regression-Standard</tag>
+   <comment></comment>
+   <testCaseGuid>3ae67b94-2172-4ac3-93a8-a9625dbd8dc7</testCaseGuid>
+   <variable>
+      <defaultValue>'7.4'</defaultValue>
+      <description></description>
+      <id>92e8937c-edd3-4484-bb8f-9424d61444ec</id>
+      <masked>false</masked>
+      <name>ReleaseNum</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>05aef933-22a8-41c0-8cde-cbe6a5233f7d</id>
+      <masked>false</masked>
+      <name>TestingStatus</name>
+   </variable>
+</TestCaseEntity>
