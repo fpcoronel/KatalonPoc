@@ -15,7 +15,7 @@
       <guid>aa437d5d-47fa-4f99-84e5-dec9e052f217</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offer ID 392 - Regression-Standard-Trial</testCaseId>
+      <testCaseId>Test Cases/Place Order/Offer ID 392 - Regression-Standard-Trial</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -33,7 +33,7 @@
       <guid>8d601571-4ced-40b4-b9fb-5000f0c62e9a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offer ID 392 - Regression-Standard</testCaseId>
+      <testCaseId>Test Cases/Place Order/Offer ID 392 - Regression-Standard</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,7 +51,7 @@
       <guid>8f2ddf5a-4fea-4d8b-9e95-2b3e66d61d13</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offer ID 394 - Regression-StandardExpires-Trial</testCaseId>
+      <testCaseId>Test Cases/Place Order/Offer ID 394 - Regression-StandardExpires-Trial</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -69,7 +69,7 @@
       <guid>353eee18-02b6-47b1-9ec3-78e0cc478d81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offer ID 394 - Regression-StandardExpires</testCaseId>
+      <testCaseId>Test Cases/Place Order/Offer ID 394 - Regression-StandardExpires</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -87,7 +87,7 @@
       <guid>461a77b9-59a2-4ef1-a895-a3fa2f35d996</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offer ID 396 - Regression-StandardCustomRecurring-Trial</testCaseId>
+      <testCaseId>Test Cases/Place Order/Offer ID 396 - Regression-StandardCustomRecurring-Trial</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -105,7 +105,7 @@
       <guid>f02a3721-8a92-416e-9422-58d89aad05c1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offer ID 396 - Regression-StandardCustomRecurring</testCaseId>
+      <testCaseId>Test Cases/Place Order/Offer ID 396 - Regression-StandardCustomRecurring</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -123,7 +123,7 @@
       <guid>78819b6d-4ce7-4ae3-b1c2-a14e5347d0f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offer ID 398 - PrepaidRenew-Trial</testCaseId>
+      <testCaseId>Test Cases/Place Order/Offer ID 398 - PrepaidRenew-Trial</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -141,7 +141,7 @@
       <guid>8c3d43dc-220b-4944-bacd-4b3f2194fd39</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offer ID 398 - PrepaidRenew</testCaseId>
+      <testCaseId>Test Cases/Place Order/Offer ID 398 - PrepaidRenew</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
