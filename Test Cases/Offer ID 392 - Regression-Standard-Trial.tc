@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for the Regression-Standard Offer</description>
+   <name>Offer ID 392 - Regression-Standard-Trial</name>
+   <tag>Regression-Standard</tag>
+   <comment></comment>
+   <testCaseGuid>cd7f135b-b174-4fdc-820c-a4050398b78e</testCaseGuid>
+   <variable>
+      <defaultValue>'7.4'</defaultValue>
+      <description></description>
+      <id>93510762-b68a-445c-be47-698589064c34</id>
+      <masked>false</masked>
+      <name>ReleaseNum</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>abcca70c-a85b-42ce-b869-a494a221e96b</id>
+      <masked>false</masked>
+      <name>TestingStatus</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Offer Tests" time="41" tests="1" failures="0" errors="0">
+   <testsuite name="Offer Tests" tests="1" failures="0" errors="0" time="41" timestamp="2018-11-20 18:00:11" hostname="Matt Martin - LAPTOP-9VMM7G2Q" id="Test Suites/Offer Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Matt Martin\\Katalon Studio\\Matt Demo Tests\\Reports\\Offer Tests\\20181120_180008"/>
+         <property name="logFiles" value="C:\\Users\\Matt Martin\\Katalon Studio\\Matt Demo Tests\\Reports\\Offer Tests\\20181120_180008\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Matt Martin - LAPTOP-9VMM7G2Q"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.132.61"/>
+         <property name="sessionId" value="5dfcad8120d582c666c8c9bea5cd486c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offer ID 394 - Regression-StandardExpires-Trial" classname="Test Cases/Offer ID 394 - Regression-StandardExpires-Trial" status="PASSED">
+         <system-out><![CDATA[2018-11-20 18:00:12 - [TEST_CASE][PASSED] - Test Cases/Offer ID 394 - Regression-StandardExpires-Trial: Test Cases/Offer ID 394 - Regression-StandardExpires-Trial
+
+2018-11-20 18:00:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://test-dnvb.qa1.limelightcrm.com/admin/login.php?'
+
+2018-11-20 18:00:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://test-dnvb.qa1.limelightcrm.com/admin/login.php?'
+
+2018-11-20 18:00:20 - [TEST_STEP][PASSED] - setText: Text 'mattauto' is set on object 'Object Repository/LL - Log In/Username Field'
+
+2018-11-20 18:00:21 - [MESSAGE][PASSED] - Text 'mattauto' is set on object 'Object Repository/LL - Log In/Username Field'
+
+2018-11-20 18:00:21 - [TEST_STEP][PASSED] - setText: Text 'Testing123!' is set on object 'Object Repository/LL - Log In/Password Field'
+
+2018-11-20 18:00:21 - [MESSAGE][PASSED] - Text 'Testing123!' is set on object 'Object Repository/LL - Log In/Password Field'
+
+2018-11-20 18:00:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LL - Log In/Log In Button' is clicked on
+
+2018-11-20 18:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LL - Log In/Log In Button' is clicked on
+
+2018-11-20 18:00:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LL - Dashboard/Dashboard Header' is visible
+
+2018-11-20 18:00:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-20 18:00:30 - [MESSAGE][PASSED] - Object 'Object Repository/LL - Dashboard/Dashboard Header' is visible
+
+2018-11-20 18:00:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test-dnvb.qa1.limelightcrm.com/admin/placeorder.php' successfully
+
+2018-11-20 18:00:32 - [MESSAGE][PASSED] - Navigate to 'https://test-dnvb.qa1.limelightcrm.com/admin/placeorder.php' successfully
+
+2018-11-20 18:00:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '137' are selected in object 'Object Repository/LL -Place Order Page/Campaign Select' 
+
+2018-11-20 18:00:33 - [MESSAGE][PASSED] - All options with value '137' are selected in object 'Object Repository/LL -Place Order Page/Campaign Select' 
+
+2018-11-20 18:00:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '394' are selected in object 'Object Repository/LL -Place Order Page/Offer Select' 
+
+2018-11-20 18:00:34 - [MESSAGE][PASSED] - All options with value '394' are selected in object 'Object Repository/LL -Place Order Page/Offer Select' 
+
+2018-11-20 18:00:34 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-20 18:00:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-20 18:00:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '207' are selected in object 'Object Repository/LL -Place Order Page/Trial Product Select' 
+
+2018-11-20 18:00:35 - [MESSAGE][PASSED] - All options with value '207' are selected in object 'Object Repository/LL -Place Order Page/Trial Product Select' 
+
+2018-11-20 18:00:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '240' are selected in object 'Object Repository/LL -Place Order Page/Billing Model Select' 
+
+2018-11-20 18:00:35 - [MESSAGE][PASSED] - All options with value '240' are selected in object 'Object Repository/LL -Place Order Page/Billing Model Select' 
+
+2018-11-20 18:00:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '207' are selected in object 'Object Repository/LL -Place Order Page/Main Product Select' 
+
+2018-11-20 18:00:36 - [MESSAGE][PASSED] - All options with value '207' are selected in object 'Object Repository/LL -Place Order Page/Main Product Select' 
+
+2018-11-20 18:00:36 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/LL -Place Order Page/Step Number Input'
+
+2018-11-20 18:00:36 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/LL -Place Order Page/Step Number Input'
+
+2018-11-20 18:00:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/LL -Place Order Page/Shipping Method Select' 
+
+2018-11-20 18:00:37 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/LL -Place Order Page/Shipping Method Select' 
+
+2018-11-20 18:00:37 - [TEST_STEP][PASSED] - setText: Text 'Matt' is set on object 'Object Repository/LL -Place Order Page/Shipping First Name Input'
+
+2018-11-20 18:00:37 - [MESSAGE][PASSED] - Text 'Matt' is set on object 'Object Repository/LL -Place Order Page/Shipping First Name Input'
+
+2018-11-20 18:00:37 - [TEST_STEP][PASSED] - setText: Text '7.4-Test' is set on object 'Object Repository/LL -Place Order Page/Shipping Last Name Input'
+
+2018-11-20 18:00:38 - [MESSAGE][PASSED] - Text '7.4-Test' is set on object 'Object Repository/LL -Place Order Page/Shipping Last Name Input'
+
+2018-11-20 18:00:38 - [TEST_STEP][PASSED] - setText: Text '123 Street' is set on object 'Object Repository/LL -Place Order Page/Shipping Address Input'
+
+2018-11-20 18:00:38 - [MESSAGE][PASSED] - Text '123 Street' is set on object 'Object Repository/LL -Place Order Page/Shipping Address Input'
+
+2018-11-20 18:00:38 - [TEST_STEP][PASSED] - setText: Text 'APT 123' is set on object 'Object Repository/LL -Place Order Page/Shipping Address 2 Input'
+
+2018-11-20 18:00:39 - [MESSAGE][PASSED] - Text 'APT 123' is set on object 'Object Repository/LL -Place Order Page/Shipping Address 2 Input'
+
+2018-11-20 18:00:39 - [TEST_STEP][PASSED] - setText: Text 'Tampa' is set on object 'Object Repository/LL -Place Order Page/Shipping City Input'
+
+2018-11-20 18:00:39 - [MESSAGE][PASSED] - Text 'Tampa' is set on object 'Object Repository/LL -Place Order Page/Shipping City Input'
+
+2018-11-20 18:00:39 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/LL -Place Order Page/Shipping Zip Code Input'
+
+2018-11-20 18:00:39 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/LL -Place Order Page/Shipping Zip Code Input'
+
+2018-11-20 18:00:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '223' are selected in object 'Object Repository/LL -Place Order Page/Shipping Country Select' 
+
+2018-11-20 18:00:40 - [MESSAGE][PASSED] - All options with value '223' are selected in object 'Object Repository/LL -Place Order Page/Shipping Country Select' 
+
+2018-11-20 18:00:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'FL' are selected in object 'Object Repository/LL -Place Order Page/Shipping State Select' 
+
+2018-11-20 18:00:40 - [MESSAGE][PASSED] - All options with value 'FL' are selected in object 'Object Repository/LL -Place Order Page/Shipping State Select' 
+
+2018-11-20 18:00:40 - [TEST_STEP][PASSED] - setText: Text '555-555-5555' is set on object 'Object Repository/LL -Place Order Page/Phone Input'
+
+2018-11-20 18:00:41 - [MESSAGE][PASSED] - Text '555-555-5555' is set on object 'Object Repository/LL -Place Order Page/Phone Input'
+
+2018-11-20 18:00:41 - [TEST_STEP][PASSED] - setText: Text 'matt@7.4Test.com' is set on object 'Object Repository/LL -Place Order Page/Email Input'
+
+2018-11-20 18:00:42 - [MESSAGE][PASSED] - Text 'matt@7.4Test.com' is set on object 'Object Repository/LL -Place Order Page/Email Input'
+
+2018-11-20 18:00:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LL -Place Order Page/Affiliate-Sub-Affiliate Checkbox' is clicked on
+
+2018-11-20 18:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LL -Place Order Page/Affiliate-Sub-Affiliate Checkbox' is clicked on
+
+2018-11-20 18:00:42 - [TEST_STEP][PASSED] - setText: Text 'AFID' is set on object 'Object Repository/LL -Place Order Page/AFID Input'
+
+2018-11-20 18:00:42 - [MESSAGE][PASSED] - Text 'AFID' is set on object 'Object Repository/LL -Place Order Page/AFID Input'
+
+2018-11-20 18:00:42 - [TEST_STEP][PASSED] - setText: Text 'SID' is set on object 'Object Repository/LL -Place Order Page/SID Input'
+
+2018-11-20 18:00:43 - [MESSAGE][PASSED] - Text 'SID' is set on object 'Object Repository/LL -Place Order Page/SID Input'
+
+2018-11-20 18:00:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'visa' are selected in object 'Object Repository/LL -Place Order Page/Payment Type Select' 
+
+2018-11-20 18:00:43 - [MESSAGE][PASSED] - All options with value 'visa' are selected in object 'Object Repository/LL -Place Order Page/Payment Type Select' 
+
+2018-11-20 18:00:43 - [TEST_STEP][PASSED] - setText: Text '5555555555555555' is set on object 'Object Repository/LL -Place Order Page/Credit Card Number Input'
+
+2018-11-20 18:00:44 - [MESSAGE][PASSED] - Text '5555555555555555' is set on object 'Object Repository/LL -Place Order Page/Credit Card Number Input'
+
+2018-11-20 18:00:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '01' are selected in object 'Object Repository/LL -Place Order Page/Expiration Date-Month Select' 
+
+2018-11-20 18:00:44 - [MESSAGE][PASSED] - All options with value '01' are selected in object 'Object Repository/LL -Place Order Page/Expiration Date-Month Select' 
+
+2018-11-20 18:00:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '30' are selected in object 'Object Repository/LL -Place Order Page/Expiration Date-Year Select' 
+
+2018-11-20 18:00:44 - [MESSAGE][PASSED] - All options with value '30' are selected in object 'Object Repository/LL -Place Order Page/Expiration Date-Year Select' 
+
+2018-11-20 18:00:44 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/LL -Place Order Page/Security Code Input'
+
+2018-11-20 18:00:44 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/LL -Place Order Page/Security Code Input'
+
+2018-11-20 18:00:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LL -Place Order Page/Process Order Button' is clicked on
+
+2018-11-20 18:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LL -Place Order Page/Process Order Button' is clicked on
+
+2018-11-20 18:00:48 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Place Order 'SUCCESS'' is present on page 
+
+2018-11-20 18:00:49 - [MESSAGE][PASSED] - Text 'Place Order 'SUCCESS'' is present on page 
+
+2018-11-20 18:00:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LL -Place Order Page/Order ID Link' is clicked on
+
+2018-11-20 18:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LL -Place Order Page/Order ID Link' is clicked on
+
+2018-11-20 18:00:51 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-20 18:00:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-20 18:00:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'matt@7.4Test.com' is present on page 
+
+2018-11-20 18:00:51 - [MESSAGE][PASSED] - Text 'matt@7.4Test.com' is present on page 
+
+2018-11-20 18:00:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'By Lime Light CRM API - Product 207 was purchased using offer 394, billing model 240. ' is present on page 
+
+2018-11-20 18:00:52 - [MESSAGE][PASSED] - Text 'By Lime Light CRM API - Product 207 was purchased using offer 394, billing model 240. ' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-20 18:00:11 - [TEST_SUITE][PASSED] - Offer Tests: Test Cases/Offer ID 394 - Regression-StandardExpires-Trial]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

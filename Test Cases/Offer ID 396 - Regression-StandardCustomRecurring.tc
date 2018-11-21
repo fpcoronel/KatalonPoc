@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for the Regression-Standard Offer</description>
+   <name>Offer ID 396 - Regression-StandardCustomRecurring</name>
+   <tag>Regression-Standard</tag>
+   <comment></comment>
+   <testCaseGuid>8d19699c-14ba-404a-8684-47e3545b7cde</testCaseGuid>
+   <variable>
+      <defaultValue>'7.4'</defaultValue>
+      <description></description>
+      <id>feea132b-d530-419b-bb46-c448240e00f1</id>
+      <masked>false</masked>
+      <name>ReleaseNum</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>f8ff575f-7965-408a-afc7-39ed34572a62</id>
+      <masked>false</masked>
+      <name>TestingStatus</name>
+   </variable>
+</TestCaseEntity>
