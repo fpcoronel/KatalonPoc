@@ -48,7 +48,7 @@ WebUI.setText(findTestObject('Billing Models/BM-xSCHEDULE/input_Buffer Days_buff
 
 WebUI.setText(findTestObject('Billing Models/BM-xSCHEDULE/input_Remove All_form-control'), '08-05,07-05,06-04')
 
-not_run: WebUI.waitForPageLoad(10, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForPageLoad(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Billing Models/BM-xSCHEDULE/button_Add'))
 
