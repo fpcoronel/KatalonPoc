@@ -4,6 +4,7 @@
    <name>Offers Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-11-26T12:29:49</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -37,13 +38,13 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>49fa8ab9-38f9-43f7-affa-d5c1ac7411a7</variableId>
+         <variableId>c44903c8-d206-4745-97b5-d6ce9ec2180e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>fbd495f0-d392-4a89-bcee-8f29e6980956</variableId>
+         <variableId>da6d12af-54a0-4f6d-9edc-54578fc38c69</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

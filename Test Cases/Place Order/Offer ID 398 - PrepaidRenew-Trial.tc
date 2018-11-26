@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>53d5cdad-44e2-401a-a03a-0ee20e64f0ee</testCaseGuid>
    <variable>
-      <defaultValue>'7.4'</defaultValue>
+      <defaultValue>GlobalVariable.ReleaseNum</defaultValue>
       <description></description>
       <id>5a504764-9262-47e2-b23c-46fac507afe5</id>
       <masked>false</masked>
       <name>ReleaseNum</name>
    </variable>
    <variable>
-      <defaultValue>'Test'</defaultValue>
+      <defaultValue>GlobalVariable.TestingStatus</defaultValue>
       <description></description>
       <id>55ac72e8-724d-4338-ba6d-ee1e73857b6b</id>
       <masked>false</masked>
