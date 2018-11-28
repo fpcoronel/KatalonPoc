@@ -4,7 +4,7 @@
    <name>Offers Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-26T12:29:49</lastRun>
+   <lastRun>2018-11-27T10:15:18</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>55f6a9bc-23f2-4fee-9e55-cdea569394cf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Place Order/Offer ID 392 - Regression-Standard-Trial</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -32,7 +32,7 @@
    <testCaseLink>
       <guid>5b9853e6-aa7c-4c98-85b3-c92313d9e7e2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Place Order/Offer ID 392 - Regression-Standard</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -189,6 +189,114 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>391773b6-012c-4991-b00b-13a1456f9d8f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fffab2b0-9be1-4300-91c1-e6b79bb5031f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Place Order/Offer ID 404 - PrepaidCancelRemaining - Trial</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6bf9f8e4-9859-4813-912c-103bf0198202</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dc6d0f4b-a908-4673-a6f9-fe19497f7016</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ac6e2bab-dcba-462f-b885-785c7a607f7b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Place Order/Offer ID 404 - PrepaidCancelRemaining</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1e0fe4ca-f5a8-4b5e-b719-fe0180917bd5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d086bc25-6dd6-4d56-9bfd-67875491cff1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e6468317-cdca-48a2-b534-00116765b0b4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Place Order/Offer ID 406 - PrepaidRefundNotAllowed - Trial</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cbaad2e5-d2a6-45c4-b5f4-5458cd16be1a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a5070eec-7cea-4ebe-9db3-07cb4fcb6545</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d227f29c-33de-4261-8767-5d8c3c420f88</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Place Order/Offer ID 406 - PrepaidRefundNotAllowed</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>056a3413-d2dc-4753-8380-e3af5397a2fb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>db20492a-2c08-43c7-8a2b-3019d9590a0a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b1e219c6-847c-498d-a09b-d37d807fb6da</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Place Order/Offer ID 439 - PrepaidCustomNextRecurring - Trial</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>17ae78aa-65fd-4db2-9e9f-76e151b58b87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8b27fb19-54d0-4983-8579-ddbe53bc3b5f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eb823533-4bbe-494d-8ec1-f70bfa472217</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Place Order/Offer ID 439 - PrepaidCustomNextRecurring</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8fe86b57-93f5-4443-9eb2-6f91346dc316</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9e27fe8d-5e2a-4fb7-8eb9-87463b824e06</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

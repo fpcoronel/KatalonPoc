@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for the Regression-Standard Offer</description>
+   <name>Offer ID 406 - PrepaidRefundNotAllowed</name>
+   <tag>Regression-Standard</tag>
+   <comment></comment>
+   <testCaseGuid>b568c45f-313b-4470-9431-5542b5041d5d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.ReleaseNum</defaultValue>
+      <description></description>
+      <id>056a3413-d2dc-4753-8380-e3af5397a2fb</id>
+      <masked>false</masked>
+      <name>ReleaseNum</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.TestingStatus</defaultValue>
+      <description></description>
+      <id>db20492a-2c08-43c7-8a2b-3019d9590a0a</id>
+      <masked>false</masked>
+      <name>TestingStatus</name>
+   </variable>
+</TestCaseEntity>

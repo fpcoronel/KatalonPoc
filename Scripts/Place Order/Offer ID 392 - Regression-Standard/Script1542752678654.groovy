@@ -58,7 +58,7 @@ WebUI.setText(findTestObject('LL -Place Order Page/Step Number Input'), '1234567
 WebUI.selectOptionByValue(findTestObject('LL -Place Order Page/Shipping Method Select'), '2', false)
 
 'Enters Shipping First Name\r\n'
-WebUI.setText(findTestObject('LL -Place Order Page/Shipping First Name Input'), 'Matt')
+WebUI.setText(findTestObject('LL -Place Order Page/Shipping First Name Input'), 'Offer ID 392 | ')
 
 'Enters Shipping Last Name\r\n'
 WebUI.setText(findTestObject('LL -Place Order Page/Shipping Last Name Input'), (GlobalVariable.ReleaseNum + '-') + GlobalVariable.TestingStatus)
@@ -85,7 +85,7 @@ WebUI.selectOptionByValue(findTestObject('LL -Place Order Page/Shipping State Se
 WebUI.setText(findTestObject('LL -Place Order Page/Phone Input'), '555-555-5555')
 
 'Enters Email address\r\n'
-WebUI.setText(findTestObject('LL -Place Order Page/Email Input'), (('matt@' + GlobalVariable.ReleaseNum) + GlobalVariable.TestingStatus) + 
+WebUI.setText(findTestObject('LL -Place Order Page/Email Input'), (('automated@' + GlobalVariable.ReleaseNum) + GlobalVariable.TestingStatus) + 
     '.com')
 
 'Clicks arrow for AFID/SID area\r\n'

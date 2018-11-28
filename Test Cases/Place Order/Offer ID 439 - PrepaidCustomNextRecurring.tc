@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for the Regression-Standard Offer</description>
+   <name>Offer ID 439 - PrepaidCustomNextRecurring</name>
+   <tag>Regression-Standard</tag>
+   <comment></comment>
+   <testCaseGuid>dc09c4e1-54f1-4d20-af00-05ba591e6955</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.ReleaseNum</defaultValue>
+      <description></description>
+      <id>8fe86b57-93f5-4443-9eb2-6f91346dc316</id>
+      <masked>false</masked>
+      <name>ReleaseNum</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.TestingStatus</defaultValue>
+      <description></description>
+      <id>9e27fe8d-5e2a-4fb7-8eb9-87463b824e06</id>
+      <masked>false</masked>
+      <name>TestingStatus</name>
+   </variable>
+</TestCaseEntity>

@@ -6,12 +6,12 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Final'</initValue>
+      <initValue>'7.4'</initValue>
       <name>ReleaseNum</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'VariableTest'</initValue>
+      <initValue>'Regression'</initValue>
       <name>TestingStatus</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
