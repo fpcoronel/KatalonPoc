@@ -59,10 +59,10 @@ WebUI.setText(findTestObject('LL -Place Order Page/Step Number Input'), '1234567
 WebUI.selectOptionByValue(findTestObject('LL -Place Order Page/Shipping Method Select'), '2', false)
 
 'Enters Shipping First Name\r\n'
-WebUI.setText(findTestObject('LL -Place Order Page/Shipping First Name Input'), 'Matt')
+WebUI.setText(findTestObject('LL -Place Order Page/Shipping First Name Input'), 'Offer ID 400 - Trial |')
 
 'Enters Shipping Last Name\r\n'
-WebUI.setText(findTestObject('LL -Place Order Page/Shipping Last Name Input'), (ReleaseNum + '-') + TestingStatus)
+WebUI.setText(findTestObject('LL -Place Order Page/Shipping Last Name Input'), (GlobalVariable.ReleaseNum + ' - ') + GlobalVariable.TestingStatus)
 
 'Enters Shipping Address\r\n'
 WebUI.setText(findTestObject('LL -Place Order Page/Shipping Address Input'), '123 Street')
@@ -86,7 +86,8 @@ WebUI.selectOptionByValue(findTestObject('LL -Place Order Page/Shipping State Se
 WebUI.setText(findTestObject('LL -Place Order Page/Phone Input'), '555-555-5555')
 
 'Enters Email address\r\n'
-WebUI.setText(findTestObject('LL -Place Order Page/Email Input'), (('matt@' + ReleaseNum) + TestingStatus) + '.com')
+WebUI.setText(findTestObject('LL -Place Order Page/Email Input'), (('automated@' + GlobalVariable.ReleaseNum) + GlobalVariable.TestingStatus) + 
+    '.com')
 
 'Clicks arrow for AFID/SID area\r\n'
 WebUI.click(findTestObject('LL -Place Order Page/Affiliate-Sub-Affiliate Checkbox'))
@@ -123,9 +124,6 @@ WebUI.click(findTestObject('LL -Place Order Page/Order ID Link'))
 
 'Allows Orders page to load'
 WebUI.waitForPageLoad(5, FailureHandling.STOP_ON_FAILURE)
-
-'Verifies that the Customer Email Address reflects test\'s Email input'
-WebUI.verifyTextPresent((('matt@' + ReleaseNum) + TestingStatus) + '.com', false)
 
 'Verifies that the proper Order History Note is present indicating the Product, Offer, and Billing Model used'
 WebUI.verifyTextPresent('By Lime Light CRM API - Product 207 was purchased using offer 400, billing model 240. ', false)

@@ -34,21 +34,24 @@ WebUI.navigateToUrl('https://test-dnvb.qa1.limelightcrm.com/admin/placeorder.php
 'Selects Regression Campaign ID 137'
 WebUI.selectOptionByValue(findTestObject('LL -Place Order Page/Campaign Select'), '137', false)
 
-'Selects Offer ID 394'
-WebUI.selectOptionByValue(findTestObject('LL -Place Order Page/Offer Select'), '394', false)
+'Selects Offer ID 406'
+WebUI.selectOptionByValue(findTestObject('LL -Place Order Page/Offer Select'), '406', false)
 
 WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('LL -Place Order Page/Trial Product Select'), 5)
+'Ensures that the Trial checkbox is present before clicking\r\n'
+WebUI.waitForElementVisible(findTestObject('LL -Place Order Page/Trial Checkbox'), 5)
 
-'Selects Trial Product ID 207\r\n'
-WebUI.selectOptionByValue(findTestObject('LL -Place Order Page/Trial Product Select'), '207', false)
+'Unchecks the Trial checkbox'
+WebUI.click(findTestObject('LL -Place Order Page/Trial Checkbox'))
 
 'Selects Bill by Cycle Billing Model\r\n'
 WebUI.selectOptionByValue(findTestObject('LL -Place Order Page/Billing Model Select'), '240', false)
 
 'Selects Main Product ID 207'
 WebUI.selectOptionByValue(findTestObject('LL -Place Order Page/Main Product Select'), '207', false)
+
+WebUI.selectOptionByValue(findTestObject('LL -Place Order Page/Prepaid Terms Select'), '2', false)
 
 'Enters Step Number for Main Product'
 WebUI.setText(findTestObject('LL -Place Order Page/Step Number Input'), '123456789')
@@ -57,7 +60,7 @@ WebUI.setText(findTestObject('LL -Place Order Page/Step Number Input'), '1234567
 WebUI.selectOptionByValue(findTestObject('LL -Place Order Page/Shipping Method Select'), '2', false)
 
 'Enters Shipping First Name\r\n'
-WebUI.setText(findTestObject('LL -Place Order Page/Shipping First Name Input'), 'Offer ID 394 - Trial | ')
+WebUI.setText(findTestObject('LL -Place Order Page/Shipping First Name Input'), 'Offer ID 406 | ')
 
 'Enters Shipping Last Name\r\n'
 WebUI.setText(findTestObject('LL -Place Order Page/Shipping Last Name Input'), (GlobalVariable.ReleaseNum + ' - ') + GlobalVariable.TestingStatus)
@@ -124,5 +127,5 @@ WebUI.click(findTestObject('LL -Place Order Page/Order ID Link'))
 WebUI.waitForPageLoad(5, FailureHandling.STOP_ON_FAILURE)
 
 'Verifies that the proper Order History Note is present indicating the Product, Offer, and Billing Model used'
-WebUI.verifyTextPresent('By Lime Light CRM API - Product 207 was purchased using offer 394, billing model 240. ', false)
+WebUI.verifyTextPresent('By Lime Light CRM API - Product 207 was purchased using offer 406, billing model 240. ', false)
 

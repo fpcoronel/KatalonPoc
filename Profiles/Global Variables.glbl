@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>Global Variables</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'7.4'</initValue>
@@ -11,12 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'This is a test'</initValue>
+      <initValue>'Regression'</initValue>
       <name>TestingStatus</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'This is a test'</initValue>
-      <name>TestVariable</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

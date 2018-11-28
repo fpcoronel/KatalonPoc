@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test for the Regression-Standard Offer</description>
-   <name>Offer ID 394 - Regression-StandardExpires</name>
+   <name>Offer ID 404 - PrepaidCancelRemaining</name>
    <tag>Regression-Standard</tag>
    <comment></comment>
-   <testCaseGuid>efb1db4c-2c90-4d15-b18c-8d7bcab1714e</testCaseGuid>
+   <testCaseGuid>bddffbe7-3342-4d5b-865b-a5c167e22a40</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.ReleaseNum</defaultValue>
       <description></description>
-      <id>f3e42be3-5f06-4fff-8d54-7aafb2e4e463</id>
+      <id>1e0fe4ca-f5a8-4b5e-b719-fe0180917bd5</id>
       <masked>false</masked>
       <name>ReleaseNum</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.TestingStatus</defaultValue>
       <description></description>
-      <id>4add695f-f4c3-41db-b56a-d9769084d89f</id>
+      <id>d086bc25-6dd6-4d56-9bfd-67875491cff1</id>
       <masked>false</masked>
       <name>TestingStatus</name>
    </variable>
