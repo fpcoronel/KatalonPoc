@@ -12,7 +12,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
 import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
@@ -22,7 +21,6 @@ DateFormat dateFormat = new SimpleDateFormat('MM/dd')
 Date date = new Date()
 
 String today = dateFormat.format(date)
-
 
 WebUI.openBrowser('')
 
@@ -50,7 +48,7 @@ WebUI.click(findTestObject('Page_Products/button_NEXT'))
 
 WebUI.click(findTestObject('Page_Add Product/label_Custom Built'))
 
-WebUI.setText(findTestObject('Page_Add Product/input_Name_product_name'), 'AUT' + today + ' Pat-CB')
+WebUI.setText(findTestObject('Page_Add Product/input_Name_product_name'), ('AUT' + today) + ' Pat-CB')
 
 WebUI.selectOptionByValue(findTestObject('Page_Add Product/select_Select Category'), '17', true)
 
@@ -72,7 +70,7 @@ WebUI.setText(findTestObject('Page_Add Product/input_Bundle Products_search_p'),
 
 WebUI.click(findTestObject('Page_Add Product/div_(297) Pat-PROD7.1_2'))
 
-WebUI.waitForPageLoad(10)
+not_run: WebUI.waitForPageLoad(10)
 
 WebUI.click(findTestObject('Page_Add Product/button_Save'))
 
